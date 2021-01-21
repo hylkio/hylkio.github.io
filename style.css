@@ -3,8 +3,6 @@ body {
   -moz-user-select: none;
   -khtml-user-select: none;
   -ms-user-select: none;
-  color: rgb(28, 28, 30);
-  background-color: #f6f9fc;
 }
 
 h1 {
@@ -59,4 +57,22 @@ a:hover {
 
 #description {
   margin: 20px 0 0 0;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    color: black;
+    background-color: #f6f9fc;
+  }
+
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #f8f8f8;
+    background-color: #3f3f3f: 
+  }
+  a:hover {
+    color: #f8f8f8;
+  }
 }
