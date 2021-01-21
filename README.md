@@ -6,4 +6,4 @@
 *__Feel free to contact me using links below__*
 
 - [📩 Email](mailto:mirosopa@gmail.com)
-- [🐤 Twitter](https://twitter.com/mirosopa_)
+
