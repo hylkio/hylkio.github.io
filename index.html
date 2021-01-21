@@ -1,0 +1,51 @@
+
+<html>
+  <head>
+    <title>Miro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Open Sans", sans-serif;
+      }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" type="image/png" href="./icon.png" />
+  </head>
+  <body>
+    <!-- <div id="particles-js"></div> -->
+    <div id="main-container">
+      <h1>Hello</h1>
+      <h2>
+        My name is
+        Miro.
+      </h2>
+      <img id="image" src="./miro.png" />
+
+      <div id="description">
+        <p>
+          I'm a <span id="age"></span>-year-old, Finnish entrepreneur, High school
+          student with passion in programming
+        </p>
+        <p>I'm interested in data science and programming in general.</p>
+        <p>
+          You can find me on my <b><a href="https://github.com/hylkio">Github</a></b> and there my programming projects are viewable
+        </p>
+      </div>
+    </div>
+    <script>
+      window.onload = () => {
+        const birthYear = 2003;
+        const currentYear = new Date().getFullYear();
+        const age =
+          new Date() > new Date(`10/18/${currentYear}`)
+            ? currentYear - birthYear
+            : currentYear - birthYear - 1;
+        document.getElementById("age").innerText = `${age}`;
+      };
+    </script>
+  </body>
+</html>
