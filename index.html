@@ -1,51 +1,154 @@
-
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Miro</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu"
-      rel="stylesheet"
-    />
-    <style>
-      * {
-        font-family: "Open Sans", sans-serif;
-      }
-    </style>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="shortcut icon" type="image/png" href="./icon.png" />
-  </head>
-  <body>
-    <!-- <div id="particles-js"></div> -->
-    <div id="main-container">
-      <h1>Hello</h1>
-      <h2>
-        My name is
-        Miro.
-      </h2>
-      <img id="image" src="./miro.png" />
+<title>Miro Sopanen</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+<style>
+  html,
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Roboto", sans-serif
+  }
+</style>
 
-      <div id="description">
-        <p>
-          I'm a <span id="age"></span>-year-old, Finnish entrepreneur, High school
-          student with passion in programming
-        </p>
-        <p>I'm interested in data science and programming in general.</p>
-        <p>
-          You can find me on my <b><a href="https://github.com/hylkio">Github</a></b> and there my programming projects are viewable
-        </p>
+<body class="w3-light-grey">
+
+  <!-- Page Container -->
+  <div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+    <!-- The Grid -->
+    <div class="w3-row-padding">
+
+      <!-- Left Column -->
+      <div class="w3-third">
+
+        <div class="w3-white w3-text-grey w3-card-4">
+          <div class="w3-display-container">
+            <img src="./miro.png" style="width:100%" alt="Avatar">
+            <div class="w3-display-bottomleft w3-container w3-text-black">
+              <h2>Miro Sopanen</h2>
+            </div>
+          </div>
+          <div class="w3-container">
+            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Programmer</p>
+            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Tampere, FI</p>
+            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>mirosopa@gmail.com</p>
+            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+358 45 11 77 926</p>
+            <hr>
+
+            <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+            <p>Python</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
+            </div>
+            <p>Html / CSS</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">
+                <div class="w3-center w3-text-white">70%</div>
+              </div>
+            </div>
+            <p>Rust</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:55%">55%</div>
+            </div>
+            <p>Javascript</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+            </div>
+            <br>
+
+            <p class="w3-large w3-text-theme"><b><i
+                  class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+            <p>English</p>
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-round-xlarge w3-teal" style="height:24px;width:70%"></div>
+            </div>
+            <p>Swedish</p>
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-round-xlarge w3-teal" style="height:24px;width:40%"></div>
+            </div>
+            <p>Finnish</p>
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+            </div>
+            <br>
+          </div>
+        </div><br>
+
+        <!-- End Left Column -->
       </div>
+
+      <!-- Right Column -->
+      <div class="w3-twothird">
+
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16"><i
+              class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>My Projects</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Todo-list Application</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 30 - <span
+                class="w3-tag w3-teal w3-round">Doing</span></h6>
+            <p>Todo-list application that runs on localhost and stores todos as well as completed todos into enctypted
+              file.</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Form handler application</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2020</h6>
+            <p>SImple application that handles events on form. Practised backend with Golang.</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Business website template</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2020</h6>
+            <p>Simple website template for small businesses. Completed using HTML, CSS and a bit of JavaScript</p><br>
+          </div>
+        </div>
+
+
+        <div class="w3-container w3-card w3-white">
+          <h2 class="w3-text-grey w3-padding-16"><i
+              class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Self-taught</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+            <p>Web Development, programming and tech in general</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Tampere High School of Technologies</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019 - Current</h6>
+            <p>High Shcool Degree</p>
+            <hr>
+          </div>
+
+        </div>
+
+        <!-- End Right Column -->
+      </div>
+
+      <!-- End Grid -->
     </div>
-    <script>
-      window.onload = () => {
-        const birthYear = 2003;
-        const currentYear = new Date().getFullYear();
-        const age =
-          new Date() > new Date(`7/28/${currentYear}`)
-            ? currentYear - birthYear
-            : currentYear - birthYear - 1;
-        document.getElementById("age").innerText = `${age}`;
-      };
-    </script>
-  </body>
+
+    <!-- End Page Container -->
+  </div>
+
+  <footer class="w3-container w3-teal w3-center w3-margin-top">
+    <p>Find me on social media.</p>
+    <i class="fa fa-github w3-hover-opacity"><a href="http://github.com/hylkio"></a></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <p>Copyright © <a href="https://hylkio.github.io" target="_blank">Miro Sopanen</a></p>
+  </footer>
+
+</body>
+
 </html>
