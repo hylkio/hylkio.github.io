@@ -1,9 +1,11 @@
 ## [My personal website](https://mirosopa.github.io)
 
-- This page is created using [Bulma](https://bulma.io)
-- You can find some information about me on the page
+- This is my personal website
+- Content of the site:
+  - Blog
+  - About me section where I tell something about myself and my interests.
 
-*__Feel free to contact me using links below__*
+_**Feel free to contact me using links below**_
 
 - [📩 Email](mailto:mirosopa@gmail.com)
 - [🐤 Twitter](https://twitter.com/mirosopa_)
