@@ -1,12 +1,13 @@
-// Bootstrap overrides for this template
+.text-primary {
+  color: $primary !important;
+}
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
 .btn {
-  font-size: 14px;
-  font-weight: 800;
-  padding: 15px 25px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  border-radius: 0;
-  @include sans-serif-font;
+  box-shadow: 0px 3px 3px 0px fade-out($gray-900, 0.9);
 }
 
 .btn-primary {
@@ -15,13 +16,11 @@
   &:hover,
   &:focus,
   &:active {
-    color: $white;
-    background-color: darken($primary, 7.5) !important;
-    border-color: darken($primary, 7.5) !important;
+    background-color: darken($primary, 10%);
+    border-color: darken($primary, 10%);
   }
 }
 
-.btn-lg {
-  font-size: 16px;
-  padding: 25px 35px;
+.font-weight-light {
+  font-weight: 100 !important;
 }

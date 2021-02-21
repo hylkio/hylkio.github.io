@@ -10,40 +10,31 @@
     <meta name="author" content="" />
 
     <title>Miro Sopanen</title>
-    <link rel="shortcut icon" href="./img/miro.png" type="image/x-icon">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Custom fonts for this template -->
     <link
-      href="vendor/fontawesome-free/css/all.min.css"
+      href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
       rel="stylesheet"
-      type="text/css"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
+      href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i"
       rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
-      rel="stylesheet"
-      type="text/css"
     />
 
     <!-- Custom styles for this template -->
-    <link href="css/clean-blog.min.css" rel="stylesheet" />
-
+    <link href="css/style.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/img/intro.jpg" type="image/x-icon" />
   </head>
 
   <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Hylkio Blog</a>
+        <!-- <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#"> Stay in touch </a> -->
         <button
-          class="navbar-toggler navbar-toggler-right"
+          class="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarResponsive"
@@ -51,143 +42,100 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <i class="fas fa-bars"></i>
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item px-lg-4">
+              <a
+                class="nav-link text-uppercase text-expanded"
+                href="https://twitter.com/sopanenm"
+                target="_blank"
+                >Twitter</a
+              >
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+            <li class="nav-item px-lg-4">
+              <a
+                class="nav-link text-uppercase text-expanded"
+                href="https://www.instagram.com/sopanem"
+                target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li class="nav-item px-lg-4">
+              <a
+                class="nav-link text-uppercase text-expanded"
+                href="https://sopanem.github.io/blog"
+                target="_blank"
+              >
+                Blog</a
+              >
             </li>
 
+            <li class="nav-item px-lg-4">
+              <a
+                class="nav-link text-uppercase text-expanded"
+                href="https://github.com/sopanem"
+                target="_blank"
+              >
+                GitHub</a
+              >
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/home-bg.jpg')">
-      <div class="overlay"></div>
+    <section class="page-section clearfix">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="site-heading">
-              <h1>Hylkio Blog</h1>
-              <span class="subheading">Blog by Miro Sopanen</span>
+        <div class="intro">
+          <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-lower">Miro Sopanen</span>
+            </h2>
+            <div>
+              <span class="what">
+                <ul
+                  class="list"
+                  style="
+                    list-style: none;
+                    font-family: 'Raleway';
+                    font-weight: 500;
+                  "
+                >
+                  <li>PROGRAMMER</li>
+                  <li>STUDENT</li>
+                  <li>ENTREPRENEUR</li>
+                </ul>
+              </span>
+            </div>
+            <div class="intro-button mx-auto">
+              <a
+                class="btn btn-primary btn-xl"
+                href="https://sopanem.github.io/blog"
+                target="_blank"
+                style="font-family: 'Raleway'"
+                >See my blog</a
+              >
             </div>
           </div>
+          <img
+            class="intro-img img-fluid mb-3 mb-lg-0 rounded"
+            src="img/intro.jpg"
+            alt=""
+          />
         </div>
       </div>
-    </header>
+    </section>
 
-    <!-- Main Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-preview">
-            <a href="./posts/post3.html">
-              <h2 class="post-title">
-                 Start of my journey learning SQL     
-              </h2>
-              <h3 class="post-subtitle">
-                How and why I did it?
-              </h3>
-            </a>
-            <p class="post-meta">
-              Posted by
-              <a href="#">Miro Sopanen</a>
-              on February 20, 2021
-            </p>
-          </div>
-          <div class="post-preview">
-            <a href="./posts/post2.html">
-              <h2 class="post-title">
-                Top 3 code editors of 2021      
-              </h2>
-              <h3 class="post-subtitle">
-                The complete fight of the best one
-              </h3>
-            </a>
-            <p class="post-meta">
-              Posted by
-              <a href="#">Miro Sopanen</a>
-              on February 18, 2021
-            </p>
-          </div>
-
-          <hr>
-          <div class="post-preview">
-            <a href="./posts/post.html">
-              <h2 class="post-title">
-                Things you should not do when learning programming 
-              </h2>
-              <h3 class="post-subtitle">
-                Here are some of my experiences 
-              </h3>
-            </a>
-            <p class="post-meta">
-              Posted by
-              <a href="#">Miro Sopanen</a>
-              on February 1, 2021
-            </p>
-          </div>
-        </div>
-      </div>
-
-          <!-- Pager -->
-        </div>
-      </div>
-    </div>
-
-    <hr />
-
-    <!-- Footer -->
-    <footer>
+    <footer class="footer text-faded text-center py-3">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto">
-            <ul class="list-inline text-center">
-              <li class="list-inline-item">
-                <a href="https://twitter.com/hylkioo">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-
-              <li class="list-inline-item">
-                <a href="https://github.com/hylkio">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://instagram.com/sopanem">
-                  <span class="fa-stack fa-lg">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-            </ul>
-            <p class="copyright text-muted">
-              Copyright &copy; Miro Sopanen 2021
-            </p>
-          </div>
-        </div>
+        <p class="m-0 medium">Email: mirosopa(at)gmail.com</p>
       </div>
     </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/clean-blog.min.js"></script>
   </body>
 </html>

@@ -1,16 +1,9 @@
-// Global styling for this template
 body {
-  font-size: 20px;
-  color: $gray-900;
-  @include serif-font;
-}
-
-p {
-  line-height: 1.5;
-  margin: 30px 0;
-  a {
-    text-decoration: underline;
-  }
+  @include body-font;
+  background: linear-gradient(rgba(47, 23, 15, 0.65)), url('../img/bg.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 h1,
@@ -19,59 +12,55 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 800;
-  @include sans-serif-font;
+  @include heading-font;
 }
 
-a {
-  color: $gray-900;
-  @include transition-all;
-  &:focus,
-  &:hover {
-    color: $primary;
+p {
+  line-height: 1.75;
+}
+
+.text-faded {
+  color: fade-out($white, 0.7);
+}
+
+.site-heading {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1;
+
+  @include heading-font;
+  .site-heading-upper {
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .site-heading-lower {
+    font-size: 5rem;
+    font-weight: 100;
+    line-height: 4rem;
   }
 }
 
-blockquote {
-  font-style: italic;
-  color: $gray-600;
+.page-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .section-heading {
-  font-size: 36px;
-  font-weight: 700;
-  margin-top: 60px;
+  text-transform: uppercase;
+  .section-heading-upper {
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .section-heading-lower {
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+  }
 }
 
-.caption {
-  font-size: 14px;
-  font-style: italic;
-  display: block;
-  margin: 0;
-  padding: 10px;
-  text-align: center;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-
-::-moz-selection {
-  color: $white;
-  background: $primary;
-  text-shadow: none;
-}
-
-::selection {
-  color: $white;
-  background: $primary;
-  text-shadow: none;
-}
-
-img::selection {
-  color: $white;
-  background: transparent;
-}
-
-img::-moz-selection {
-  color: $white;
-  background: transparent;
+.bg-faded {
+  background-color: fade-out($white, 0.15);
 }
