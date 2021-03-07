@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Miro Sopanen</title>
+    <meta
+      name="description"
+      content="I am Miro and I am a programmer, student as well as an entrepreneur. This is my simple personal website."
+    />
+    <link rel="shortcut icon" href="./miro.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="overlay-content">
+        <a href="#">Home</a>
+        <a href="https://sopanem.github.io/blog">Blog</a>
+        <a href="https://twitter.com/sopanenm">Twitter</a>
+        <a href="https://github.com/sopanem">Github</a>
+      </div>
+    </div>
+    <div class="header">
+      <a href="#default" class="logo">Miro Sopanen</a>
+      <div class="header-right">
+        <span
+          style="font-size: 40px; cursor: pointer; padding: 5px; color: #f8f8f8"
+          onclick="openNav(); toggleIcon()"
+          >&#9776;</span
+        >
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img
+            src="miro.png"
+            alt="Avatar"
+            style="width: 550px; height: 700px"
+          />
+        </div>
+        <div class="flip-card-back">
+          <h1 style="padding-top: 50%">Miro Sopanen</h1>
+          <p>Student, etrepreneur & programer</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.display = "block";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
