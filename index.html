@@ -1,66 +1,74 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en-US">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <!-- TITLE -->
     <title>Miro Sopanen</title>
-    <meta
-      name="description"
-      content="I am Miro and I am a programmer, student as well as an entrepreneur. This is my simple personal website."
-    />
-    <link rel="shortcut icon" href="./miro.png" type="image/x-icon" />
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- TAB ICON -->
+    <link rel="shortcut icon" href="./ms.jpg" type="image/x-icon">
+  
+    <!-- LOCAL CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
   </head>
-  <body>
-    <section class="showcase">
-      <header>
-        <h2 class="logo">Miro Sopanen</h2>
-        <div class="toggle"></div>
-      </header>
 
-      <div class="overlay"></div>
-      <div class="text">
-        <h2>Miro Sopanen</h2>
-        <h3>A Finnish creator</h3>
-        <p>
-          I am Miro Sopanen and I am high school student, entrepreneur and a
-          programmer. I do like learning new things. Occasionally I write blog
-          on topics related to tech and coding.
-        </p>
-        <a href="https://sopanem.github.io/blog">See More</a>
-      </div>
-      <ul class="social">
-        <li>
-          <a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png" /></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/sopanenm"
-            ><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"
-          /></a>
-        </li>
-        <li>
-          <a href="https://instagram.com/sopanem"
-            ><img src="https://i.ibb.co/ySwtH4B/instagram.png"
-          /></a>
-        </li>
-      </ul>
-    </section>
-    <div class="menu">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="https://sopanem.github.io/blog">Blog</a></li>
-        <li><a href="https://github.com/sopanem">Github</a></li>
-        <li><a href="https://dev.to/sopanenm">DEV</a></li>
-        <li><a href="mailto:mirosopa@gmail.com">Email</a></li>
-      </ul>
+  <body id="about-me" class="fadeInSlow">
+    <!-- NAV BAR -->
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+
+
+            <ul class="nav navbar-nav .navbar-default">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="https://sopaenem.github.io/blog">Blog</a></li>
+              <li><a href="mailto:mirosopa@gmail.com">Email Me</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+
+      </nav>
+      <hr>
+    </header>
+
+    <div class="top-headline">
+      <h1>About Me</h1>
+      <hr>
     </div>
-    <script>
-      const menuToggle = document.querySelector(".toggle");
-      const showcase = document.querySelector(".showcase");
 
-      menuToggle.addEventListener("click", () => {
-        menuToggle.classList.toggle("active");
-        showcase.classList.toggle("active");
-      });
-    </script>
+    <section class="main-content">
+      <div class="container">
+        <div class="about-me-content">
+          <p> I am Miro Sopanen and I am a programmer, entrepreneur & content creator. I write occasionally some shit on my <a href="https://sopanem.github.io/blog">Blog</a>. I am a quite active on all social media channels.  I do like programming. The most of the time I do basic programming which contains web development, application development and everything related to those</p>
+          <p> I am currently doing a CSV-editing application - <a href="https://sopanem.github.io/msv-cli">msv-cli</a>. The purpose of that is to make CSV editing faster using commandline and it's features. I am looking for learning some Vuejs as a javascript framework and proppably some Golang for the backend. Never no!</p>
+          <p style="font-weight: 600;">More Miro</p>
+        </div>
+        <img class="about-me-img" src="./ms.jpg" alt="#">
+      </div>
+
+
+
+    </section>
+
+
+
+    <footer>
+      <hr>
+      <div>
+        <a href="https://twitter.com/sopanenm"" target="_blank"><i class="fa fa-twitter profiles" aria-hidden="true"></i></a>
+        <a href="mailto:mirosopa@gmail.com" target="_top"><i class="fa fa-envelope-o profiles" aria-hidden="true"></i></a>
+        <a href="https://instagram.com/sopanem"" target="_blank"><i class="fa fa-instagram profiles" aria-hidden="true"></i></a>
+        <a href="https://github.com/sopanem"" target="_blank"><i class="fa fa-github profiles" aria-hidden="true"></i></a>
+      </div>
+      <div>&#169; 2021 Miro Sopanen | All Rights Reserved</div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../../js/script.js"></script>
+  
   </body>
 </html>
