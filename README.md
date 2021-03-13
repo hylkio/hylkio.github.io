@@ -16,4 +16,4 @@ I am currently working on [msv-cli](https://sopanem.github.io/msv-cli) which is 
 ### Follow me on socials and get updates!
 
 > [Twitter](https://twitter.com/sopanenm)
-> [Blog}(https://sopanem.github.io/blog)
+> [Blog](https://sopanem.github.io/blog)
