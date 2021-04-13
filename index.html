@@ -1,18 +1,76 @@
----
-layout: default
----
+<html>
+  <head>
+    <title>Miro Sopanen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Open Sans", sans-serif;
+      }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" type="image/png" href="./me.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-TEV8K6N59E"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
+      gtag("config", "G-TEV8K6N59E");
+    </script>
+  </head>
+  <body>
+    <!-- <div id="particles-js"></div> -->
+    <div id="main-container">
+      <h1>Hello World</h1>
+      <h2>My name is Miro Sopanen.</h2>
+      <img id="image" src="./me.png" />
+      <ul id="social-media-icons">
+        <li>
+          <a href="https://twitter.com/sopanenm" target="_blank"
+            ><img class="icon" src="./twitter-logo.svg"
+          /></a>
+        </li>
+        <li>
+          <a href="https://github.com/sopanem" target="_blank"
+            ><img class="icon" src="./github-logo.svg"
+          /></a>
+        </li>
+      </ul>
+      <div id="description">
+        <p>
+          I'm a <span id="age"></span>-year-old Finnish high school student and
+          entrepreneur with all kinds of ideas.
+        </p>
+        <p>I'm interested in all stuff related to tech.</p>
+        <p>
+          I'm trying to grow on
+          <a href="https://www.twitter.com/sopanenm" target="_blank"
+            ><b>Twitter</b></a
+          >, so i would appreciate it if you would follow me there.
+        </p>
       </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+    </div>
+    <script src="main.js"></script>
+    <script>
+      window.onload = () => {
+        const birthYear = 2003;
+        const currentYear = new Date().getFullYear();
+        const age =
+          new Date() > new Date(`7/28/${currentYear}`)
+            ? currentYear - birthYear
+            : currentYear - birthYear - 1;
+        document.getElementById("age").innerText = `${age}`;
+      };
+    </script>
+  </body>
+</html>
