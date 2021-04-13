@@ -1,557 +1,118 @@
 <!DOCTYPE html>
-
-<html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>About me - taimur.me</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <meta property="og:title" content="About me" />
-    <meta property="og:description" content="" />
-
-    <style type="text/css" media="screen">
-      /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
-
-      body {
-        font-size: 18px;
-      }
-
-      sub,
-      sup {
-        /* Specified in % so that the sup/sup is the right size relative to the surrounding text */
-        font-size: 75%;
-
-        /* Zero out the line-height so that it doesn't interfere with the positioning that follows */
-        line-height: 0;
-
-        /* Where the magic happens: makes all browsers position the sup/sup properly, relative to the surrounding text */
-        position: relative;
-
-        /* Note that if you're using Eric Meyer's reset.css, this is already set and you can remove this rule */
-        vertical-align: baseline;
-      }
-
-      sup {
-        /* Move the superscripted text up */
-        top: -0.5em;
-      }
-
-      sub {
-        /* Move the subscripted text down, but only half as far down as the superscript moved up */
-        bottom: -0.25em;
-      }
-
-      ::-moz-selection {
-        background: #b3d4fc;
-        text-shadow: none;
-      }
-
-      ::selection {
-        background: #b3d4fc;
-        text-shadow: none;
-      }
-
-      blockquote {
-        background: #f9f9f9;
-        border-left: 10px solid #ccc;
-        margin: 1.5em 10px;
-        padding: 0.5em 10px;
-        quotes: "\201C""\201D""\2018""\2019";
-      }
-      blockquote:before {
-        color: #ccc;
-        content: open-quote;
-        font-size: 4em;
-        line-height: 0.1em;
-        margin-right: 0.25em;
-        vertical-align: -0.4em;
-      }
-      blockquote p {
-        display: inline;
-      }
-
-      audio,
-      canvas,
-      iframe,
-      img,
-      svg,
-      video {
-        vertical-align: middle;
-        width: 100%;
-      }
-
-      code {
-        font-family: "Source Code Pro", monospace;
-      }
-
-      .browserupgrade {
-        margin: 0.2em 0;
-        background: #ccc;
-        color: #000;
-        padding: 0.2em 0;
-      }
-
-      h3 {
-        margin-top: 25px;
-        color: #303030;
-      }
-
-      #main,
-      #sidebar {
-        position: absolute;
-        top: 40px;
-      }
-      * {
-        margin: 0;
-        padding: 0;
-        text-rendering: optimizeLegibility;
-        -moz-osx-font-smoothing: grayscale;
-        -moz-font-feature-settings: "liga", "kern";
-        font-stretch: normal;
-        -webkit-font-kerning: auto;
-        font-kerning: auto;
-        -webkit-font-smoothing: antialiased !important;
-        vertical-align: baseline;
-        font-family: "Georgia", serif;
-        color: #262626;
-      }
-
-      #sidebar h2,
-      #nav h2 {
-        font-family: sans-serif;
-      }
-
-      #nav h2 {
-        margin-bottom: 0.4em;
-        letter-spacing: -0.02em;
-      }
-
-      #main {
-        left: 280px;
-        width: 620px;
-      }
-      h1 {
-        margin-top: 0;
-        font-size: 1.95em;
-        font-weight: 400;
-        letter-spacing: -0.02em;
-      }
-
-      p {
-        font-size: 1em;
-        line-height: 1.35;
-        margin-bottom: 1em;
-        color: #262626;
-        letter-spacing: -0.2pt;
-      }
-
-      #main h1 a {
-        color: inherit;
-        text-decoration: none;
-      }
-
-      #sidebar {
-        left: 20px;
-        width: 200px;
-        padding-right: 20px;
-        padding-top: 8px;
-        text-align: right;
-      }
-      #sidebar h2 {
-        font-size: 0.9em;
-      }
-      #sidebar ul {
-        list-style-type: none;
-        margin-bottom: 1em;
-      }
-      #sidebar li {
-        font-size: 0.8em;
-        margin-top: 0.5em;
-      }
-
-      #nav {
-        display: none;
-        margin-bottom: 20px;
-        font-size: 0.8em;
-      }
-
-      #nav li {
-        display: inline;
-        margin-right: 7px;
-      }
-
-      #nav img.logo {
-        width: 65px;
-        margin-bottom: 10px;
-      }
-
-      @media only screen and (max-width: 800px) {
-        #sidebar {
-          left: 0;
-          width: 190px;
-          padding: 20px 12px 0 0;
-        }
-
-        #main {
-          left: 214px;
-          width: 486px;
-        }
-      }
-
-      @media only screen and (max-width: 700px) {
-        #nav {
-          display: block;
-          border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-          margin-bottom: 2.1em;
-          padding-bottom: 1.8em;
-        }
-
-        #sidebar {
-          display: none;
-        }
-
-        #main {
-          left: 15px;
-          width: calc(100% - 30px);
-        }
-      }
-
-      .social {
-        margin: 50px 0;
-        padding-top: 25px;
-        border-top: 1px solid #aaa;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        justify-content: center;
-      }
-      a.changelog {
-        color: #00f;
-      }
-      a.changelog:hover {
-        color: #333;
-      }
-      .social div {
-        flex-grow: 1;
-        text-align: center;
-      }
-
-      img.logo {
-        width: 113px;
-      }
-
-      *:focus {
-        outline: none;
-      }
-
-      .links {
-        color: inherit;
-        font-family: serif;
-      }
-
-      .links:hover {
-        color: #00f;
-      }
-
-      .post-info {
-        color: grey;
-        margin-bottom: 1em;
-        margin-top: 0.7em;
-        font-family: sans-serif;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-        padding-bottom: 1em;
-        font-size: 0.9em;
-        letter-spacing: -0.02em;
-      }
-
-      .post-body p:first-of-type {
-        font-size: 1.2em;
-        line-height: 1.28em;
-      }
-
-      .post-body h1,
-      .post-body h2,
-      .post-body h3,
-      .post-body h4 {
-        font-family: sans-serif;
-        margin-bottom: 0.3em;
-      }
-
-      .post-body li {
-        margin-bottom: 0.66em;
-        line-height: 1.3;
-      }
-
-      .mfp-with-zoom .mfp-container,
-      .mfp-with-zoom.mfp-bg {
-        opacity: 0;
-        -webkit-backface-visibility: hidden;
-        /* ideally, transition speed should match zoom duration */
-        -webkit-transition: all 0.3s ease-out;
-        -moz-transition: all 0.3s ease-out;
-        -o-transition: all 0.3s ease-out;
-        transition: all 0.3s ease-out;
-      }
-
-      .mfp-with-zoom.mfp-ready .mfp-container {
-        opacity: 1;
-      }
-      .mfp-with-zoom.mfp-ready.mfp-bg {
-        opacity: 0.8;
-      }
-
-      .mfp-with-zoom.mfp-removing .mfp-container,
-      .mfp-with-zoom.mfp-removing.mfp-bg {
-        opacity: 0;
-      }
-
-      .post-preview {
-        font-size: 0.9em;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-        padding-bottom: 0.7em;
-        margin-bottom: 2.1em;
-      }
-
-      .post-preview h1 {
-        margin: 0;
-        margin-bottom: 0.35em;
-        font-size: 1.6em;
-      }
-
-      .post-preview .post-info {
-        border: 0;
-        margin: 0;
-        padding: 0;
-        margin-top: 0.25em;
-        margin-bottom: 0.7em;
-      }
-
-      .list-link {
-        font-family: sans-serif;
-        color: inherit;
-        color: #262626;
-      }
-
-      .post-body li {
-        margin-bottom: 0.4em;
-      }
-
-      .post-body ol,
-      .post-body ul {
-        margin-bottom: 1em;
-      }
-
-      hr {
-        border: 0;
-        margin: 0;
-        margin-bottom: 1.4em;
-        margin-top: 1.4em;
-      }
-
-      hr:after {
-        content: "• • •";
-        letter-spacing: 0.4em;
-        color: rgba(0, 0, 0, 0.5);
-        display: block;
-        text-align: center;
-      }
-
-      .ig-image {
-        margin-bottom: 1em;
-      }
-
-      .email-input {
-        padding: 7px;
-        padding-left: 10px;
-        padding-right: 10px;
-        border-radius: 4px;
-        font-family: sans-serif;
-        font-size: 0.8em;
-        border: none;
-        background: rgba(0, 0, 0, 0.1);
-        width: 100%;
-        box-sizing: border-box;
-        margin-bottom: 4px;
-        max-width: 400px;
-      }
-
-      #mc-embedded-subscribe-form {
-      }
-
-      .subscribe-spiel {
-        color: #262626;
-        margin-top: 0.4em;
-        margin-bottom: 0.7em;
-      }
-
-      .subscribe-spiel a {
-        color: #38a1f3;
-      }
-
-      .post-signup-form {
-        border-top: 1px solid rgba(0, 0, 0, 0.2);
-        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-        margin-bottom: 1em;
-        margin-top: 2.1em;
-        padding-top: 1em;
-        padding-bottom: 1em;
-      }
-
-      .post-signup-form .email-input {
-        margin-top: 0.1em;
-      }
-
-      .post-signup-form p {
-        letter-spacing: -0.01em;
-        font-size: 0.9em;
-        line-height: 1.45;
-      }
-
-      .post-signup-form h3 {
-        margin-top: 0;
-        font-weight: 500;
-        -webkit-font-smoothing: subpixel-antialiased !important;
-      }
-
-      li {
-        list-style-position: inside;
-      }
-
-      .standalone-signup-form {
-        border-top: none;
-      }
-
-      .back-home {
-        margin-bottom: 1em;
-        font-family: sans-serif;
-      }
-
-      .back-home a {
-        font-family: sans-serif;
-        font-size: 0.9em;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="main">
-      <div id="nav">
-        <h2>taimur.me</h2>
-
-        <ul>
-          <li><a href="/" class="list-link">home</a></li>
-
-          <li>
-            <a
-              href="https://twitter.com/sopanenm"
-              class="list-link"
-              target="_blank"
-              >twitter</a
-            >
-          </li>
-
-          <li>
-            <a
-              href="https://www.sopanem.github.io/blog"
-              class="list-link"
-              target="_blank"
-              >blog</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.github.com/sopanem"
-              class="list-link"
-              target="_blank"
-              >github</a
-            >
-          </li>
-        </ul>
-      </div>
-
-      <h1><a href="">About me</a></h1>
-      <div class="post-info">updated 13 April 2021</div>
-      <div class="post-body">
-        <p>
-          These days, I spend most of my time working on
-          <a href="https://sopanem.github.io/msv-cli">msv-cli</a> I also write
-          on this blog, tweet on <a href="https://twitter.com/sopanenm"></a> and
-          am trying to get in shape.
-        </p>
-
-        <p>
-          I spent the last big chunks of my life working as a student at
-          <a
-            href="https://www.tampere.fi/varhaiskasvatus-ja-koulutus/lukiokoulutus/tampereen-teknillinen-lukio.html"
-            >Tampere High School of Technology</a
-          >
-          (2019–2022)
-        </p>
-
-        <h4 id="connect">Connect</h4>
-
-        <ul>
-          <li><a href="https://twitter.com/sopanenm">Twitter</a></li>
-          <li><a href="https://instagram.com/sopanenm">Instagram</a></li>
-          <li><a href="https://www.github.com/sopanem/">Github</a></li>
-          <li>Email: mirosopa@gmail.com</li>
-        </ul>
-
-        <h4 id="projects">Projects</h4>
-
-        <ul>
-          <li><a href="https://sopanem.github.io/blog">Blog</a></li>
-          <li><a href="https://www.sopanem.github.io/msv-cli">msv-cli</a></li>
-        </ul>
-
-        <h4 id="bucket-list">Bucket List</h4>
-
-        <ul>
-          <li>Create own business</li>
-          <li>Buy house</li>
-          <li>Become data scientist</li>
-        </ul>
-      </div>
-
-      <div class="post-signup-form">
-        <h3>thanks for reading!</h3>
-        <p class="subscribe-spiel">
-          I'd love to hear your thoughts :)
-          <a href="https://twitter.com/sopanenm" target="_blank"
-            >Say hi on Twitter</a
-          >.
-        </p>
-      </div>
-    </div>
-
-    <div id="sidebar">
-      <div class="ig-image">
-        <a href="/" target="_blank"><img src=./ms.jpg></a>
-      </div>
-      <h2>Miro Sopanen</h2>
-      <ul>
-        <li><a href="/" class="list-link">home</a></li>
-
-        <li>
-          <a
-            href="https://twitter.com/sopanenm"
-            class="list-link"
-            target="_blank"
-            >twitter</a
-          >
-        </li>
-
-        <li>
-          <a
-            href="https://sopanem.github.io/blog"
-            class="list-link"
-            target="_blank"
-            >blog</a
-          >
-        </li>
-      </ul>
-    </div>
-  </body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Miro's Homepage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="sass/index.css" />
+        <link rel="shortcut icon" href="/ms.jpg" type="image/x-icon" />
+        <link rel="icon" href="/ms.jpg" type="image/x-icon" />
+        <link
+                rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+                />
+
+        <style>
+
+        </style>
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="https://sopanem.github.io/blog">Blog</a>
+        </nav>
+
+        <!-- Content Section -->
+        <br />
+
+        <h1><big>Miro Sopanen</big> <em>(https://www.sopanem.github.io)</em></h1>
+
+        <div class="mainpanel">
+            <h2 style="margin: 0px">Welcome!</h2>
+
+            <p>My name is Miro Sopanen, and I'm known for being:</p>
+
+            <br />
+
+            <ul>
+                <li>
+                    Someone who tweets stuff on
+                    <a target="_blank" href="https://www.twitter.com/sopanenm">Twitter</a
+                    >.
+                </li>
+                <li>
+                    A <code><em>High school student</em></code> in Tampere High school of
+                    technologies.
+                </li>
+                <li>
+                    A Professional &amp; hobbyist programmer with varying skill &amp;
+                    interest in:
+                    <ul>
+                        <li style="padding: 0%"><code>CSS</code></li>
+                        <li style="padding: 0%"><code>HTML</code></li>
+                        <li style="padding: 0%"><code>JavaScript</code></li>
+                        <li style="padding: 0%"><code>Markdown</code></li>
+                        <li style="padding: 0%"><code>Python</code></li>
+                        <li style="padding: 0%"><code>SQL</code></li>
+                        <li style="padding: 0%"><code>Go</code></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <br />
+
+            </pre>
+        </div>
+
+        <div class="sidepanel">
+            <center>
+                <img
+                        style="margin: 10px; border-radius: 170px; width: 70%; height: 70%"
+                        src="/ms.jpg"
+                        alt="Miro"
+                        />
+            </center>
+
+            <ul style="list-style: none;">
+                <li>
+                    Content:
+                    <ul>
+                        <li>
+
+                            <li>
+                                <a target="_blank" href="https://github.com/sopanem"
+                                                   ><img src="/icons/github.svg" alt="Github" /> Github</a
+                                               >
+                            </li>
+                                    <li>
+                                        <a target="_blank" href="https://twitter.com/sopanenm"
+                                                           ><img src="/icons/twitter.svg" alt="Twitter" /> Twitter</a
+                                                       >
+                                    </li>
+
+                    </ul>
+                        </li>
+
+                        <li>
+                            Personal:
+                            <ul>
+                                <li>
+                                    <a href="mailto:mirosopa@gmail.com"
+                                       ><img src="/icons/email.svg" alt="Email me" /> Email me</a
+                                   >
+                                </li>
+                                        <li>
+                                            <a href="https://sopanem.github.io/blog"
+                                               ><img src="/icons/blog.svg" alt="Blog" /> Blog</a
+                                           >
+                                        </li>
+                                        </li>
+                                  
+                                        </ul>
+        </div>
+
+        <div style="clear: both">&nbsp;</div>
+    </body>
 </html>
