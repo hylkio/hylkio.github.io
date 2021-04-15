@@ -1,19 +1,11 @@
-# [Miro Sopanen](https://sopanem.github.io)
+## [My personal blog](https://sopanem.github.io/blog)
 
-This is my personal website where I share some information about me. I cover there following topics on the website:
+- This is my personal blog
+- Most of the posts will be published also on [DEV](https://dev.to/sopanenm)
+- Photos and all media is from [Unsplash](https://unsplash.com)
 
-- Who am I?
-- What I am interested about?
-- What I do? 
-- And links to my socials
+_**Feel free to contact me using links below**_
 
----
-
-I am currently working on [msv-cli](https://sopanem.github.io/msv-cli) which is a cli-application for editing CSV-files fast and effectively. I is currently in progress and you can follow the progress [here](https://github.com/sopanem/msv-cli).
-
----
-
-### Follow me on socials and get updates!
-
-> [Twitter](https://twitter.com/sopanenm)
-> [Blog](https://sopanem.github.io/blog)
+- [📩 Email](mailto:mirosopa@gmail.com)
+- [🐤 Twitter](https://twitter.com/sopanenm)
+- [🌐 Websitre](https://sopanem.github.io)
