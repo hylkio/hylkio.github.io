@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: React vs Vue - A real tight comparsion between the two
 ---
 
 Javascript, one of the used programming languages in the world, has taken a place in many developers' tech stack. There are various reasons for that but one of the biggest ones is good front-end frameworks. For example, there are ReacJS, VueJS, Angular, and Next.js.
@@ -90,4 +90,3 @@ Feel free to check out my socials!
 - [Github](https://github.com/sopanem)
 - [Website](https://sopanem.github.io)
 - [Twitter](https://twitter.com/sopanenm)
-
