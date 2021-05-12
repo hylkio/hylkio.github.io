@@ -7,7 +7,7 @@ title: sopanem
 description: Miro's personal website
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
-baseurl: "/sopanem"
+baseurl: "/"
 
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
