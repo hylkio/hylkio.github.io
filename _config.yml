@@ -34,7 +34,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: I am Miro Sopanen and I am currently studying at Tampere High School of Technology. I am interested in programming, data science and tech in general. I also write <a href="https://sopanem.github.io/blog"blog></a> on my freetime. In the future I would like to work as an software engineer on some cool company or I want to start my own software business.
+about_me_description: I am Miro Sopanen and I am currently studying at Tampere High School of Technology. I am interested in programming, data science and tech in general. I also write <a href="https://sopanem.github.io/blog">blog</a> on my freetime. In the future I would like to work as an software engineer on some cool company or I want to start my own software business.
 
 # SKILLS SECTION
 # show_skills_card:
