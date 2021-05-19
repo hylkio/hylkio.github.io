@@ -4,8 +4,8 @@ meta_description: "Miro's blog, Blogging about tech"
 
 markdown: kramdown
 highlighter: rouge
-logo: false
-paginate: 15
+logo: true
+paginate: 10
 baseurl: /
 domain_name: "http://sopanem.github.io"
 google_analytics: "UA-XXXXXXXX-X"
