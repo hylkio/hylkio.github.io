@@ -3,13 +3,13 @@ layout: page
 title: About me
 ---
 
-Hi There :wave ! I am Miro Sopanen and welcome to read my a little humble description about me. So, first of all, I am a programmer hobbyist, high school student on days and entrepreneur on nights.
+Hi There 👋 ! I am Miro Sopanen and welcome to read my a little humble description about me. So, first of all, I am a programmer hobbyist, high school student on days and entrepreneur on nights.
 
 Currently, I am really interested on the following topics:
 
-- [ ] Programming in general
-- [ ] Data Science
-- [ ] Entrepreneurship and freelancing
+- Programming in general
+- Data Science
+- Entrepreneurship and freelancing
 
 ---
 
