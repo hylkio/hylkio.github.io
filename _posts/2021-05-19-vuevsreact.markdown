@@ -5,8 +5,6 @@ date: 2021-05-19 10:18:00
 categories: javascript
 ---
 
-There will go the content of the whole post. Write it down in grammarly application or copy it there and check for issues.
-
 Javascript, one of used programming languages in the world, has taken a place in many developers tech stack. There is various of reasons for that but one of the biggest ones is good front-end frameworks. For example there are ReacJS, VueJS, Angular and Next.js.
 
 On this blog post I will cover everything you need to know about two of the most popular Javascript frameworks: VueJS and ReactJS. I'll answer for the following questions: Which one you should choose as a beginner, when to use which one and what are differences on them. Also, I will cover pros and cons of these both frameworks.
