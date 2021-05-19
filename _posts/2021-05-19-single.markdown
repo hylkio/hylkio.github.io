@@ -32,8 +32,6 @@ I think that usually making things in that "multiple lines" kind of way makes co
 
 In my opinion, the single-line type is cleaner than the multiple-line type. That's basically because there are not then so many lines to confuse you.
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ni326xh7ie6fbw336lfc.jpg)
-
 ## Pros of single line and multiple line types
 
 - Sometimes more readable
