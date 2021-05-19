@@ -1,0 +1,46 @@
+---
+layout: post
+title: "Top Visual studio color schemes everyone should try"
+date: 2021-05-18 10:18:00
+categories: vscode
+---
+
+Visual studio code is one of the most used code editors in today's world. It is used by professionals as well as beginners. It has many different things we can customize and one of them is the color scheme. Here is a list of visual studio color schemes I think everyone should try.
+
+A quick reminder here! These are only my opinions and they don't relate to any studies or anything kind of those.
+
+## [One dark pro](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.one-dark-pro)
+
+One dark pro is a better version of the default One dark color scheme. One dark is used as Atoms (link) default color scheme. It is really popular and it has over 3.3 million users in the world. I think it is an absolutely amazing color scheme and everyone should try it
+
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kbsp1ygn63ulyd32um8a.png)
+
+---
+
+## [Monokai](https://marketplace.visualstudio.com/items?itemName=gerane.Theme-Monokai)
+
+Monokai theme is the default theme of Sublime text code editor and it is available for most code editors as well as terminals. I have used to use the monokai theme in the visual studio code but nowadays I don't use it. Monokai theme is installed already into code when you take the editor in use.
+
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/e13re2qvoj2qw55tj9e8.png)
+
+---
+
+## [Cobalt 2](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
+
+Cobalt 2 is currently the color scheme of choice for me. It is created by Wes Bos (link) and it has over 400 000 downloads in visual studio code. Cobalt 2 theme is not available for the most of other editors and programming-related tools but there are different versions available of the cobalt theme.
+
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pwpyw8ejqxxqi95yo8pp.png)
+
+---
+
+### Conclusion
+
+This was today's post. Hope you enjoyed it! See you next time.
+
+---
+
+Feel free to check out my socials!
+
+- [Github](https://github.com/sopanem)
+- [Website](https://sopanem.github.io)
+- [Twitter](https://twitter.com/sopanenm)
