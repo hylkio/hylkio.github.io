@@ -1,0 +1,55 @@
+---
+layout: post
+title: "My all time favorite tools for increasing productivity"
+date: 2021-05-06 10:18:00
+categories: tools
+---
+
+It is the third post and third day of this 30-day challenge I am completing. Today I want to share some stuff I am passionate about and that is productivity tools.
+
+For the last 12 months or about I have discovered a lot of tools and ways to increase our productivity level. I have discovered time management tools, project management tools as well as note-taking tools during the time. My deduction on the topic of productivity apps and tools is that there is no specific one to choose and every tool has its pros as well as cons. Therefore I'll share my favorite ones and introduce quickly how I am applying them to my everyday workflow.
+
+### [Notion](https://notion.so)
+
+I think that Notion is the game-changer application when it comes to managing projects, taking notes, and getting things done. Notion does almost everything you possibly can imagine. Linked databases, kanban-boards, calendars, recently added timeline view for databases, and lots of possible ways to embed stuff there.
+
+My Notion usage maintains nowadays into the category of school because of the "Toggle feature" there. It helps to do active recall with notes taken during lectures. That feature has almost replaced my usage of the active recall app of Anki which is a flashcard app of choice for me.
+
+### [Obsidian](https://obsidian.md)
+
+When it comes to researching, knowledge management, and writing, I am using obsidian. It has become my go-to app for creating notes from books, articles, and podcasts.
+
+I have built the so-called [Second brain](https://fortelabs.co/blog/basboverview/) in the obsidian because of obsidian's cool feature called graph view which shows how your thoughts links together through [[link]] method. Also, so-called "#tags" in obsidian have helped me to create a knowledge management system into obsidian.
+
+If you want to learn more about building a second brain and its possibilities and pros, please check out this [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten#:~:text=The%20zettelkasten%20) Wikipedia article.
+
+### [Todoist](https://todoist.com)
+
+To-do-list applications and managing to-do's is a really important part of my productivity system. Every time there comes something into mind, I am going to write it into Todoist to be sure I don't forget it.
+
+There are available lots of alternatives for Todoist as a to-do-list app, but I think that todoist is for my situation the best possible alternative.
+
+I don't use it for managing my project-based tasks or any bigger tasks I have. There are only my quick tasks I have to complete but I don't have at the time possible to complete them. Then I jot them down into todoist.
+
+### [Google Calendar](https://calendar.google.com)
+
+The second last tool in my list is a calendar application which in my situation is Google Calendar. I don't have any specific reason for this choice but it has served well for my needs.
+
+I use Google Calendar for planning my weeks during Sundays roughly and updating during the weeks more in-depth. Also, I add important task-dues if it is needed.
+
+I think that any calendar application is good enough for this purpose, so anyone can choose to use what they find the best option out there.
+
+### Physical Notebook
+
+A physical notebook is a must-have for everyone. It is so easy to take and jot down your current thoughts and ideas.
+
+I often use it to do my daily bullet journal, but there is no specific more usage for me with a physical paper notebook, so I use it as a general place to write my thoughts out. Anyways, I suggest everyone try this out.
+
+### Conclusion
+
+This is my productivity workflow roughly explained. I hope you find some useful insights from the post or any actionable tips. See you next time!
+
+Follow me on socials to get updated:
+
+- [Twitter](https://twitter.com/sopanenm)
+- [Instagram](https://instagram.com/sopanem)
